@@ -1,0 +1,78 @@
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainheading {
+  margin-top: 30px;
+  color: #0f172a;
+}
+
+.successContainer {
+  padding: 1%;
+  color: #2dca73;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.errorContainer {
+  padding: 1%;
+  color: #ff0b37;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.warningContainer {
+  padding: 1%;
+  color: #ffb800;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.infoContainer {
+  padding: 1%;
+  color: #0f81e0;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 33px;
+  margin: 10px;
+  align-self: flex-start;
+}
+
+.nameparaContainer {
+  flex-grow: 1;
+}
+
+.heading {
+  margin-top: 0;
+}
+
+.para {
+  color: #63738b;
+  font-weight: 600;
+}
